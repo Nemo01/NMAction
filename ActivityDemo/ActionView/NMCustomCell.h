@@ -1,5 +1,5 @@
 //
-//  CustomCell.h
+//  NMCustomCell.h
 //  ActivityDemo
 //
 //  Created by nemo on 16/3/23.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomCell : UICollectionViewCell
+@interface NMCustomCell : UICollectionViewCell
 @property (strong, nonatomic) UIImageView *imageView;
 @property (strong, nonatomic) UILabel *nameLabel;
 

@@ -19,7 +19,10 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLD-sy-bol">
                                 <rect key="frame" x="142" y="250" width="37" height="30"/>
-                                <state key="normal" title="show"/>
+                                <color key="tintColor" red="0.11764705882352941" green="0.12549019607843137" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="show">
+                                    <color key="titleShadowColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="tapAciton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Upa-b6-AY4"/>
                                 </connections>
