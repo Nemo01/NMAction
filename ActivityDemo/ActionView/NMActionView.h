@@ -14,6 +14,10 @@
 #define ImageKey @"image"
 #define TextKey @"text"
 
+@protocol ActionViewDelegate <NSObject>
+-(void)customCellSelected:(NSInteger)index;
+@end
+
 @interface NMActionView : UIView<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @property(nonatomic, strong) UICollectionView *mainCollectionView;
@@ -21,6 +25,7 @@
 @property(nonatomic, strong) NSArray *dataArray;
 @property(nonatomic, strong) NSArray *selectedArray;
 @property(nonatomic, strong) UIView *bottomView;
+@property(nonatomic, weak) id <ActionViewDelegate> actionDelegate;
 
 -(void)loadData;
 -(void)showActionView;

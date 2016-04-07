@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2067224BDD5533063D87DDB2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CCB8389F30A0FF51BADF35 /* libPods.a */; };
-		BAB448051CA38E100003B659 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB448041CA38E100003B659 /* earth.png */; };
-		BAB448071CA3D5010003B659 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB448061CA3D5010003B659 /* delete@2x.png */; };
 		BAB4481A1CA3E2E80003B659 /* copy_ios.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB4480B1CA3E2E80003B659 /* copy_ios.png */; };
 		BAB4481B1CA3E2E80003B659 /* copy_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB4480C1CA3E2E80003B659 /* copy_normal.png */; };
 		BAB4481C1CA3E2E80003B659 /* copy_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB4480D1CA3E2E80003B659 /* copy_pressed.png */; };
@@ -25,7 +23,7 @@
 		BAB448261CA3E2E80003B659 /* share_ios.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB448171CA3E2E80003B659 /* share_ios.png */; };
 		BAB448271CA3E2E80003B659 /* share_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB448181CA3E2E80003B659 /* share_normal.png */; };
 		BAB448281CA3E2E80003B659 /* share_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB448191CA3E2E80003B659 /* share_pressed.png */; };
-		BAB448301CA54C8B0003B659 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4482D1CA54C8B0003B659 /* CustomCell.m */; };
+		BAB448301CA54C8B0003B659 /* NMCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4482D1CA54C8B0003B659 /* NMCustomCell.m */; };
 		BAB448311CA54C8B0003B659 /* NMActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB4482F1CA54C8B0003B659 /* NMActionView.m */; };
 		BAD4B3D91BFC679C00C4ADF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4B3D81BFC679C00C4ADF7 /* main.m */; };
 		BAD4B3DC1BFC679C00C4ADF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4B3DB1BFC679C00C4ADF7 /* AppDelegate.m */; };
@@ -38,8 +36,6 @@
 /* Begin PBXFileReference section */
 		862884CBC018AA38698D2C69 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		99A8FD37B50466FADBB5B519 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		BAB448041CA38E100003B659 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
-		BAB448061CA3D5010003B659 /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
 		BAB4480B1CA3E2E80003B659 /* copy_ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copy_ios.png; sourceTree = "<group>"; };
 		BAB4480C1CA3E2E80003B659 /* copy_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copy_normal.png; sourceTree = "<group>"; };
 		BAB4480D1CA3E2E80003B659 /* copy_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copy_pressed.png; sourceTree = "<group>"; };
@@ -55,8 +51,8 @@
 		BAB448171CA3E2E80003B659 /* share_ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_ios.png; sourceTree = "<group>"; };
 		BAB448181CA3E2E80003B659 /* share_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_normal.png; sourceTree = "<group>"; };
 		BAB448191CA3E2E80003B659 /* share_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_pressed.png; sourceTree = "<group>"; };
-		BAB4482C1CA54C8B0003B659 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
-		BAB4482D1CA54C8B0003B659 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		BAB4482C1CA54C8B0003B659 /* NMCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMCustomCell.h; sourceTree = "<group>"; };
+		BAB4482D1CA54C8B0003B659 /* NMCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMCustomCell.m; sourceTree = "<group>"; };
 		BAB4482E1CA54C8B0003B659 /* NMActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMActionView.h; sourceTree = "<group>"; };
 		BAB4482F1CA54C8B0003B659 /* NMActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMActionView.m; sourceTree = "<group>"; };
 		BAD4B3D41BFC679C00C4ADF7 /* ActivityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,8 +116,8 @@
 		BAB4482B1CA54C8B0003B659 /* ActionView */ = {
 			isa = PBXGroup;
 			children = (
-				BAB4482C1CA54C8B0003B659 /* CustomCell.h */,
-				BAB4482D1CA54C8B0003B659 /* CustomCell.m */,
+				BAB4482C1CA54C8B0003B659 /* NMCustomCell.h */,
+				BAB4482D1CA54C8B0003B659 /* NMCustomCell.m */,
 				BAB4482E1CA54C8B0003B659 /* NMActionView.h */,
 				BAB4482F1CA54C8B0003B659 /* NMActionView.m */,
 			);
@@ -155,8 +151,6 @@
 				BAD4B3DE1BFC679C00C4ADF7 /* ViewController.m */,
 				BAB4482B1CA54C8B0003B659 /* ActionView */,
 				BAB4480A1CA3E2E80003B659 /* Resources */,
-				BAB448041CA38E100003B659 /* earth.png */,
-				BAB448061CA3D5010003B659 /* delete@2x.png */,
 				BAD4B3E01BFC679C00C4ADF7 /* Main.storyboard */,
 				BAD4B3E31BFC679C00C4ADF7 /* Assets.xcassets */,
 				BAD4B3E51BFC679C00C4ADF7 /* LaunchScreen.storyboard */,
@@ -242,12 +236,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB448051CA38E100003B659 /* earth.png in Resources */,
 				BAB4481F1CA3E2E80003B659 /* delete_pressed.png in Resources */,
 				BAB448241CA3E2E80003B659 /* safari_normal.png in Resources */,
 				BAB4481E1CA3E2E80003B659 /* delete_normal.png in Resources */,
 				BAB448201CA3E2E80003B659 /* refresh_ios.png in Resources */,
-				BAB448071CA3D5010003B659 /* delete@2x.png in Resources */,
 				BAB448211CA3E2E80003B659 /* refresh_normal.png in Resources */,
 				BAB448271CA3E2E80003B659 /* share_normal.png in Resources */,
 				BAB4481B1CA3E2E80003B659 /* copy_normal.png in Resources */,
@@ -322,7 +314,7 @@
 			files = (
 				BAD4B3DF1BFC679C00C4ADF7 /* ViewController.m in Sources */,
 				BAD4B3DC1BFC679C00C4ADF7 /* AppDelegate.m in Sources */,
-				BAB448301CA54C8B0003B659 /* CustomCell.m in Sources */,
+				BAB448301CA54C8B0003B659 /* NMCustomCell.m in Sources */,
 				BAD4B3D91BFC679C00C4ADF7 /* main.m in Sources */,
 				BAB448311CA54C8B0003B659 /* NMActionView.m in Sources */,
 			);

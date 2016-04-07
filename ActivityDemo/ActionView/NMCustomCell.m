@@ -1,5 +1,5 @@
 //
-//  CustomCell.m
+//  NMCustomCell.m
 //  ActivityDemo
 //
 //  Created by nemo on 16/3/23.
@@ -7,11 +7,11 @@
 //
 
 #import "Masonry/Masonry.h"
-#import "CustomCell.h"
+#import "NMCustomCell.h"
 
-@implementation CustomCell
+@implementation NMCustomCell
 + (NSString *)cellReuseId {
-    return NSStringFromClass([CustomCell class]);
+    return NSStringFromClass([NMCustomCell class]);
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
