@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NMAction"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "NMAction is a drop-down list of ios."
 
   # This description is used to generate tags and improve search results.
