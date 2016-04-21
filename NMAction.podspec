@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint Action.podspec' to ensure this is a
+#  Be sure to run `pod spec lint NMAction.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "Action"
+  s.name         = "NMAction"
   s.version      = "0.0.1"
-  s.summary      = "A short description of Action."
+  s.summary      = "NMAction is a drop-down list of ios."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   action
+                   NMAction is a drop-down list of ios
   DESC
-  s.homepage     = "https://github.com/Nemo01/Action"
+  s.homepage     = "https://github.com/Nemo01/NMAction"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -64,7 +64,6 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
   s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
@@ -80,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Nemo01/Action.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Nemo01/NMAction.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
